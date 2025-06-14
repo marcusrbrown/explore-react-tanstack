@@ -65,15 +65,15 @@ jobs:
 
       - name: Lint
         run: pnpm run lint
-#       - name: Build
-#         run: pnpm run build
-#
-#       - if: github.ref =='refs/heads/main'
-#         name: Upload Artifact
-#         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
-#         with:
-#           path: dist
+      - name: Build
+        run: pnpm run build
 
+      - if: github.ref =='refs/heads/main'
+        name: Upload Artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+        with:
+          path: .output/public
+#
 #   deploy:
 #     concurrency:
 #       group: pages
