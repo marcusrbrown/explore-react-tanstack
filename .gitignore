@@ -5,8 +5,10 @@ yarn.lock
 .DS_Store
 .cache
 .env
+.nitro
 .vercel
 .output
+.tanstack
 /build/
 /api/
 /server/build
