@@ -1,16 +1,14 @@
 # Explore React TanStack Demo
 
-
-
 > A live-coded, full-stack Rick & Morty character directory showcasing **five powerful TanStack libraries**: Start, Router, Query, Table, and Store.
 
 ## 🎤 About the Presentation
 
 This repository supports Marcus' live demo for a local React meetup titled:
 
-> *"Supercharge Your React Apps with TanStack"*
+> _"Supercharge Your React Apps with TanStack"_
 
-In this 45-minute session, we dive into how TanStack's ecosystem solves real-world React problems with clean APIs, type safety, and excellent developer ergonomics. *No slides, just code.*
+In this 45-minute session, we dive into how TanStack's ecosystem solves real-world React problems with clean APIs, type safety, and excellent developer ergonomics. _No slides, just code._
 
 ## 🌌 The Demo Project
 
@@ -143,8 +141,7 @@ This starts your app in development mode, rebuilding assets on file changes.
 
 ### Editing and previewing the docs of TanStack projects locally
 
-The documentations for all TanStack projects except for `React Charts` are hosted on [https://tanstack.com](https://tanstack.com), powered by this TanStack Router app.
-In production, the markdown doc pages are fetched from the GitHub repos of the projects, but in development they are read from the local file system.
+The documentations for all TanStack projects except for `React Charts` are hosted on [https://tanstack.com](https://tanstack.com), powered by this TanStack Router app. In production, the markdown doc pages are fetched from the GitHub repos of the projects, but in development they are read from the local file system.
 
 Follow these steps if you want to edit the doc pages of a project (in these steps we'll assume it's [`TanStack/form`](https://github.com/tanstack/form)) and preview them locally :
 
@@ -162,8 +159,7 @@ git clone git@github.com:TanStack/tanstack.com.git
 git clone git@github.com:TanStack/form.git
 ```
 
-> [!NOTE]
-> Your `tanstack` directory should look like this:
+> [!NOTE] Your `tanstack` directory should look like this:
 >
 > ```
 > tanstack/
@@ -173,8 +169,7 @@ git clone git@github.com:TanStack/form.git
 >    +-- tanstack.com/
 > ```
 
-> [!WARNING]
-> Make sure the name of the directory in your local file system matches the name of the project's repo. For example, `tanstack/form` must be cloned into `form` (this is the default) instead of `some-other-name`, because that way, the doc pages won't be found.
+> [!WARNING] Make sure the name of the directory in your local file system matches the name of the project's repo. For example, `tanstack/form` must be cloned into `form` (this is the default) instead of `some-other-name`, because that way, the doc pages won't be found.
 
 3. Enter the `tanstack/tanstack.com` directory, install the dependencies and run the app in dev mode:
 
@@ -187,12 +182,9 @@ pnpm dev
 
 4. Now you can visit http://localhost:3000/form/latest/docs/overview in the browser and see the changes you make in `tanstack/form/docs`.
 
-> [!NOTE]
-> The updated pages need to be manually reloaded in the browser.
+> [!NOTE] The updated pages need to be manually reloaded in the browser.
 
-> [!WARNING]
-> You will need to update the `docs/config.json` file (in the project's repo) if you add a new doc page!
-
+> [!WARNING] You will need to update the `docs/config.json` file (in the project's repo) if you add a new doc page!
 
 ---
 
