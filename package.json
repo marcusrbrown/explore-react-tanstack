@@ -23,9 +23,9 @@
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
-    "@bfra.me/eslint-config": "^0.23.0",
+    "@bfra.me/eslint-config": "^0.24.0",
     "@bfra.me/prettier-config": "^0.15.5",
-    "@bfra.me/tsconfig": "^0.9.7",
+    "@bfra.me/tsconfig": "^0.10.0",
     "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
     "@eslint/markdown": "^6.5.0",
     "@types/node": "^22.5.4",
