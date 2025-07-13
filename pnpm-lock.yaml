@@ -46,11 +46,11 @@ importers:
         specifier: ^0.24.0
         version: 0.24.2(@typescript-eslint/eslint-plugin@8.35.1(@typescript-eslint/parser@8.35.1(eslint@9.30.1(jiti@2.1.2))(typescript@5.8.3))(eslint@9.30.1(jiti@2.1.2))(typescript@5.8.3))(@typescript-eslint/utils@8.35.1(eslint@9.30.1(jiti@2.1.2))(typescript@5.8.3))(eslint-config-prettier@10.1.5(eslint@9.30.1(jiti@2.1.2)))(eslint-plugin-prettier@5.5.1(eslint-config-prettier@10.1.5(eslint@9.30.1(jiti@2.1.2)))(eslint@9.30.1(jiti@2.1.2))(prettier@3.6.2))(eslint@9.30.1(jiti@2.1.2))(typescript@5.8.3)
       '@bfra.me/prettier-config':
-        specifier: ^0.15.5
-        version: 0.15.7(prettier@3.6.2)
+        specifier: ^0.16.0
+        version: 0.16.0(prettier@3.6.2)
       '@bfra.me/tsconfig':
-        specifier: ^0.10.0
-        version: 0.10.0
+        specifier: ^0.11.0
+        version: 0.11.0
       '@eslint-community/eslint-plugin-eslint-comments':
         specifier: ^4.5.0
         version: 4.5.0(eslint@9.30.1(jiti@2.1.2))
@@ -316,13 +316,13 @@ packages:
       eslint-plugin-prettier:
         optional: true
 
-  '@bfra.me/prettier-config@0.15.7':
-    resolution: {integrity: sha512-VFaOB4Y2CzZemDh0zniQCZT3E5g6of7ONjGTU3wjIkZFcLoswjrd4pSQ1nzwER0zF8DXFn3IRJejjYI35va93g==}
+  '@bfra.me/prettier-config@0.16.0':
+    resolution: {integrity: sha512-03K1cyic0Ffi9nn+STkfsjwhjXzeEgkngirN3NCjzaqjzx73pVLAENxPc+0Yeh9+kV0MJNFKEwGtX43hvkjLWw==}
     peerDependencies:
       prettier: ^3.0.0
 
-  '@bfra.me/tsconfig@0.10.0':
-    resolution: {integrity: sha512-dvWmv5y6ZrZh7baSH8o02NtdOqQIFcUKYW4dfVNb73cZ3ODCrTeto3Gn7H/B7VYrW5n7itypZC/GpTeT7gvArQ==}
+  '@bfra.me/tsconfig@0.11.0':
+    resolution: {integrity: sha512-XnO6flP9qOU3XXWi/LUY3Ev8n/cEOhulDVXK7Nip9U7tgh8KxfS+yIB8TAbSUkGsf7/AOX8+v/xfdruo5CH2mw==}
 
   '@cloudflare/kv-asset-handler@0.4.0':
     resolution: {integrity: sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA==}
@@ -4555,11 +4555,11 @@ snapshots:
       - supports-color
       - typescript
 
-  '@bfra.me/prettier-config@0.15.7(prettier@3.6.2)':
+  '@bfra.me/prettier-config@0.16.0(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
 
-  '@bfra.me/tsconfig@0.10.0': {}
+  '@bfra.me/tsconfig@0.11.0': {}
 
   '@cloudflare/kv-asset-handler@0.4.0':
     dependencies:
