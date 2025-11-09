@@ -18,7 +18,8 @@ const deferredQueryOptions = () =>
 export const Route = createFileRoute('/deferred')({
   loader: ({context}) => {
     // Kick off loading as early as possible!
-    context.queryClient.prefetchQuery(deferredQueryOptions())
+    // eslint-disable-next-line no-void
+    void context.queryClient.prefetchQuery(deferredQueryOptions())
   },
   component: Deferred,
 })
