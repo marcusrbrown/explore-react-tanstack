@@ -15,7 +15,8 @@ export function DefaultCatchBoundary({error}: ErrorComponentProps) {
       <div className="flex gap-2 items-center flex-wrap">
         <button
           onClick={() => {
-            router.invalidate()
+            // eslint-disable-next-line no-void
+            void router.invalidate()
           }}
           className={`px-2 py-1 bg-gray-600 dark:bg-gray-700 rounded text-white uppercase font-extrabold`}
         >

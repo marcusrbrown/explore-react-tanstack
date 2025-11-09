@@ -1,19 +1,18 @@
+/// <reference types="vite/client" />
 import type {QueryClient} from '@tanstack/react-query'
 import {ReactQueryDevtools} from '@tanstack/react-query-devtools'
-/// <reference types="vite/client" />
 import {createRootRouteWithContext, HeadContent, Link, Outlet, Scripts} from '@tanstack/react-router'
 import {TanStackRouterDevtools} from '@tanstack/react-router-devtools'
 import * as React from 'react'
 import {DefaultCatchBoundary} from '~/components/DefaultCatchBoundary'
 import {NotFound} from '~/components/NotFound'
-// @ts-expect-error - This is a CSS module import
-import appCss from '~/styles/app.css?url'
+import appCss from '~/styles/app.css'
 import {seo} from '~/utils/seo'
 
 export const Route = createRootRouteWithContext<{
   queryClient: QueryClient
 }>()({
-  head: () => ({
+  head: _ctx => ({
     meta: [
       {
         charSet: 'utf-8',
@@ -28,7 +27,7 @@ export const Route = createRootRouteWithContext<{
       }),
     ],
     links: [
-      {rel: 'stylesheet', href: appCss},
+      {rel: 'stylesheet', href: String(appCss)},
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
