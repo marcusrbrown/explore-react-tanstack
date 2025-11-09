@@ -42,15 +42,5 @@
     "vite-tsconfig-paths": "^5.1.4"
   },
   "packageManager": "pnpm@10.13.1",
-  "pnpm": {
-    "overrides": {
-      "jiti": "<2.2.0"
-    },
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "esbuild",
-      "unrs-resolver"
-    ]
-  },
   "prettier": "@bfra.me/prettier-config/120-proof"
 }
