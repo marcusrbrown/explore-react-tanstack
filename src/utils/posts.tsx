@@ -3,7 +3,7 @@ import {notFound} from '@tanstack/react-router'
 import {createServerFn} from '@tanstack/react-start'
 import axios from 'redaxios'
 
-export type PostType = {
+export interface PostType {
   id: string
   title: string
   body: string
