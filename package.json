@@ -59,7 +59,7 @@
   "packageManager": "pnpm@10.13.1",
   "pnpm": {
     "overrides": {
-      "jiti": "~2.1.0"
+      "jiti": "~2.6.0"
     },
     "onlyBuiltDependencies": [
       "@parcel/watcher",
